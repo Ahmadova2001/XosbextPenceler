@@ -5,7 +5,10 @@ const Navbar = () => {
     return (
         <div className='container max-auto px-20 bg-[#720e9e] h-25'>
             <div className='flex items-center justify-between'>
-                <img src="/paw.png" alt="logo" className='h-25 w-25' />
+                <div className='flex items-center '>
+                    <img src="/paw.png" alt="logo" className='h-25 w-25 -mr-6' />
+                    <span className='text-amber-400 font-mono'>HAPPYPAWS</span>
+                </div>
                 <ul className='flex text-center justify-center gap-20'>
                     <li className='text-white  hover:text-amber-600 duration-1000'>
                         <Link href="/">Home</Link>
@@ -23,7 +26,7 @@ const Navbar = () => {
                         <Link href="/volunteer">Volunteer</Link>
                     </li>
                     <li className='text-white hover:text-amber-600 duration-1000 '>
-                      <Link href="/signup">Sign up</Link>
+                        <Link href="/signup">Sign up</Link>
                     </li>
 
                 </ul>
