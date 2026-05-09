@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
+
 const Main = () => {
   const steps = [
     { id: 1, top: '20%', left: '10%', rot: '-15deg', delay: 'd1' },
@@ -12,8 +13,6 @@ const Main = () => {
 
   return (
     <div className='relative w-full h-[700px] overflow-hidden flex items-center justify-center'>
-
-
       <img
         src="/dog.jpg"
         alt="dog"

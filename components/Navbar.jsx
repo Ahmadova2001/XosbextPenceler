@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import PetsDropdown from './Petsdropdown';
 
 const Navbar = () => {
     return (
@@ -19,9 +20,10 @@ const Navbar = () => {
                     <li className='text-white  hover:text-amber-600 duration-1000'>
                         <Link href="/services">Services</Link>
                     </li>
-                    <li className='text-white  hover:text-amber-600 duration-1000'>
-                        <Link href="/pets">Pets</Link>
-                    </li>
+                  <div className='text-white hover:text-amber-600 duration-1000 relative z-50'>
+                      <PetsDropdown/>
+                  </div>
+                    
                     <li className='text-white hover:text-amber-600 duration-1000'>
                         <Link href="/volunteer">Volunteer</Link>
                     </li>
@@ -35,4 +37,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar;
