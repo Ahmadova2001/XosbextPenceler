@@ -21,7 +21,7 @@ const Navbar = () => {
                         <Link href="/services">Services</Link>
                     </li>
                   <div className='text-white hover:text-amber-600 duration-1000 relative z-50'>
-                      <PetsDropdown/>
+                     <Link href="/pets"> <PetsDropdown/></Link>
                   </div>
                     
                     <li className='text-white hover:text-amber-600 duration-1000'>
