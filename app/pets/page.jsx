@@ -28,9 +28,9 @@ export default function CategoriesPage() {
 
 
     return (
-        <div className='bg-blue-100'>
+        <div className='bg-blue-300'>
             <div className="p-8 max-w-6xl mx-auto min-h-screen">
-                <h1 className="text-3xl font-bold mt-4 text-[#720e9e] text-center ">
+                <h1 className="text-3xl font-bold mt-4 text-blue-900 text-center ">
                     Choose Your Friend
                 </h1>
                 <p className='text-center text-xl font-mono text-gray-600 mt-5 '>Choose a category to meet our beautiful friends looking for a home</p>
